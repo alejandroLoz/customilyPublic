@@ -26,7 +26,7 @@ Take into account that you'll need to authenticate first so you can properly cal
 
   - when viewed on mobile: a single colum with infinite scrolling 
   
-    ![Mobile home](https://i.imgur.com/hy0io2l.png)  
+    ![Mobile home](https://i.imgur.com/PoDR0py.png)  
    
    
 When the user clicks the `Try it` button, the app should take him to another page where:
@@ -46,11 +46,11 @@ When the user clicks the `Try it` button, the app should take him to another pag
   ![Desktop pp](https://i.imgur.com/1OMtQwj.png)
   
   This is how it should look for mobile:
-  ![Mobile pp](https://i.imgur.com/x7waVFC.png)  
+  ![Mobile pp](https://i.imgur.com/CMUrC4b.png)  
    
 
 
 ## Delivery
 
   - The solution should be run using `npm run test`. This should open a new window with the home page of the solution.
-  - The solution should be uploaded to a github private repository. Create a new repo on your github account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator to that repo (alejandroLoz)
+  - The solution should be uploaded to a github private repository. Create a new repo on your github account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator to that repo (`alejandroLoz`)
