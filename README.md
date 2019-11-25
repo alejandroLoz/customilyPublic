@@ -15,12 +15,12 @@ We encourage the use of js and css frameworks and/or libraries, if the app runs 
 
 The app should:
 - Get all the products for the user `frontEndDev` via the API. Keep in mind that this is now shown or mentioned in the videos above.
-The two calls that you need to make are exemplified in this POSTMAN example.
+The two calls that you need to make are exemplified in [this POSTMAN example](https://app.customily.com/CustomilyAPIExamples.postman_collection.json). 
 Take into account that you'll need to authenticate first so you can properly call `GetProductsFromTo`
 
 - List them as follows:
 
-  - When viewed on desktop: a 3 x 4 gird with pagination 
+  - When viewed on desktop: a 2 x 4 gird with pagination 
   
     ![Desktop home](http://i.imgur.com/KAVLzbH.png)
 
@@ -53,4 +53,4 @@ When the user clicks the `Try it` button, the app should take him to another pag
 ## Delivery
 
   - The solution should be run using `npm run test`. This should open a new window with the home page of the solution.
-  - The solution should be uploaded to a github private repository. Create a new repo on your github account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator to that repo. 
+  - The solution should be uploaded to a github private repository. Create a new repo on your github account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator ![alejandroLoz](https://github.com/alejandroLoz@alejandroLoz) to that repo. 
