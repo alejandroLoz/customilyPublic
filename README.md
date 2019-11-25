@@ -5,17 +5,18 @@ If you got to this point Congratulations! If you complete this task the job will
 ## Prerequisites
 Before starting this test we recommend to have a minumum understanding of how Customily works.
 - As you already went through the interveiew you should already know the basiscs (what Customily is used for), now you should learn a bit about Customily's admin panel and [this video](https://www.youtube.com/watch?v=0EvFyV063Po) will help you out with that.
-- Once that you have an understanding of what you can do with Customily's admin panel, you'd need to how our javascript library ([customily.js](https://app.customily.com/customily.js) ) works 
-and we have a video for that as well :) Follow [this video](https://www.youtube.com/watch?v=nFA4rfmzXqk) that refers to [this example](https://app.customily.com/example.html) so you can learn how to use some of our library's function.
+- Once that you have an understanding of what you can do with Customily's admin panel, you'll need to know how our javascript library ([customily.js](https://app.customily.com/customily.js) ) works 
+and we have a video for that as well :) .Follow [this video](https://www.youtube.com/watch?v=nFA4rfmzXqk) that refers to [this example](https://app.customily.com/example.html) so you can learn how to use some of our library's function.
 
 ## Test
 
 For this test you need to create a javascript application that does what's listed below.
 We encourage the use of js and css frameworks and/or libraries, if the app runs on IE11 is definitly a plus
 
-- Gets all the products for the user `frontEndDev` via the API. Keep in mind that this is now shown or mentioned in the videos above.
+The app should:
+- Get all the products for the user `frontEndDev` via the API. Keep in mind that this is now shown or mentioned in the videos above.
 The two calls that you need to make are exemplified in this POSTMAN example.
-Take into account that you'll need to authenitcate first so you can properly call GetProductsFromTo
+Take into account that you'll need to authenitcate first so you can properly call `GetProductsFromTo`
 
 - List them as follows:
 
@@ -28,10 +29,18 @@ Take into account that you'll need to authenitcate first so you can properly cal
     ![Mobile home](https://i.imgur.com/hy0io2l.png)  
    
    
-When the user clicks on `Try it`, it should take him to a new page where:
+When the user clicks the `Try it` button, the app should take him to a new page where:
 
-  - He'll be able to see the personalization canvas (you should call `engraver.setProudct(id)`)
-  - All the input controls for text and fonts should be generated on the fly. (`setText` and `setFont`)
+  - He'll be able to see the personalization canvas for that product (you should call `engraver.setProudct(id)`)
+  - He'll be able to see the input controls for text and fonts for that prodcut. You should generate these controls on the fly. 
+    In order to geenrate these controls, you should read the product metadata. 
+      You can obtain the product metadata with `engraver.currentProduct`, we only want to show the textfields and the dropdowns for the font opitons, so you can ignore everything else returned by said function.
+
+      - To obtain the text id for the i'th position use, `engraver.currentProduct.preview.textsPreview[i].id`
+      
+      - To obtain the list for the font paths for the i'th position use`engraver.currentProduct.preview.textsPreview[i].fontsMap`
+  *Make sure to strip the last bit of the fonts, in other words, instead of displaying `"Avenir Heavy-61ed8ee8-0bae-477d-9310-c248a4924613.otf"` , you should show : `"Avenir Heavy"`*
+  - All the user interaction should be reflected in the canvas. (using `engraver.setText(id,line)` and `engraver.setFont(id,option)`)
   
   This is how it should look for desktop:
   ![Desktop pp](https://i.imgur.com/1OMtQwj.png)
@@ -39,14 +48,9 @@ When the user clicks on `Try it`, it should take him to a new page where:
   This is how it should look for mobile:
   ![Mobile pp](https://i.imgur.com/x7waVFC.png)  
    
-You can obtain the product metadata with `engraver.currentProduct`, we only want to show the textfields and the dropdowns for the font opitons, so you can ignore everything else returned by said function.
-  - To obtain the text id for the i'th position use, `engraver.currentProduct.preview.textsPreview[i].id`
-  - To obtain the list for the font paths for the i'th position use`engraver.currentProduct.preview.textsPreview[i].fontsMap`
-  *Make sure to strip the last bit of the fonts, in other words, instead of displaying `"Avenir Heavy-61ed8ee8-0bae-477d-9310-c248a4924613.otf"` , you should show : `"Avenir Heavy"`*
 
-  - All the user interaction should be reflected in the canvas. (using `engraver.setText(id,line)` and `engraver.setFont(id,option)`)
 
 ## Delivery
 
   - The solution should be run using `npm run test`. This should open a new window with the home page of the solution.
-  - The solution should be uploaded to github as a pull request to a branch other than master that you'll have to create.
+  - The solution should be uploaded to github as a pull request to a branch other than `master` that you'll have to create.
