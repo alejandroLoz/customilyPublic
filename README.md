@@ -53,4 +53,4 @@ When the user clicks the `Try it` button, the app should take him to another pag
 ## Delivery
 
   - The solution should be run using `npm run test`. This should open a new window with the home page of the solution.
-  - The solution should be uploaded to a github private repository. Create a new repo on your github account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator ![alejandroLoz](https://github.com/alejandroLoz@alejandroLoz) to that repo. 
+  - The solution should be uploaded to a github private repository. Create a new repo on your github account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator to that repo (alejandroLoz)
