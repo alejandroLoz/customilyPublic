@@ -4,7 +4,7 @@ If you got to this point Congratulations! If you complete this task the job will
 
 ## Prerequisites
 Before starting this test we recommend to have a minumum understanding of how Customily works.
-- As you already went through the interveiew you should know the basiscs (what Customily is used for), now you should learn a bit about Customily's admin panel and [this video](https://www.youtube.com/watch?v=0EvFyV063Po) will help you out with that.
+- As you already went through the interveiew you should know the basiscs (what Customily is used for), now you should learn a bit about Customily's admin panel and [this video](https://www.youtube.com/watch?v=j6-fIL6bSTA) will help you out with that.
 - Once that you have an understanding of what you can do with Customily's admin panel, you'll need to know how our javascript library ([customily.js](https://app.customily.com/customily.js) ) works 
 and we have a video for that as well :) .Follow [this video](https://www.youtube.com/watch?v=nFA4rfmzXqk) that refers to [this example](https://app.customily.com/example.html) so you can learn how to use some of our library's function.
 
