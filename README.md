@@ -39,7 +39,7 @@ When the user clicks the `Try it` button, the app should take him to another pag
       - To obtain the text id for the i'th position use, `engraver.currentProduct.preview.textsPreview[i].id`
       
       - To obtain the list for the font paths for the i'th position use`engraver.currentProduct.preview.textsPreview[i].fontsMap`
-  *(Make sure to strip the last bit of the fonts, in other words, instead of displaying `"Avenir Heavy-61ed8ee8-0bae-477d-9310-c248a4924613.otf"` , you should show : `"Avenir Heavy"`)*
+  :warning: *Make sure to strip the last bit of the fonts, in other words, instead of displaying `"Avenir Heavy-61ed8ee8-0bae-477d-9310-c248a4924613.otf"` , you should show : `"Avenir Heavy"`*
   - All the user interaction should be reflected in the canvas. (using `engraver.setText(id,line)` and `engraver.setFont(id,option)`)
   
   This is how it should look for desktop:
