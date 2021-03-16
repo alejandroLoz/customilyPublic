@@ -40,7 +40,7 @@ When the user clicks the `Try it` button, the app should take him to another pag
   - All the user interaction should be reflected in the canvas. (using `engraver.setText(id, line)` and `engraver.setFont(id, option)`)
   
   This is how it should look for desktop:
-  ![Desktop pp](https://i.imgur.com/1OMtQwj.png)
+  ![Desktop pp](https://i.imgur.com/7Il9WwC.png)
   
   This is how it should look for mobile:
   ![Mobile pp](https://i.imgur.com/CMUrC4b.png)
