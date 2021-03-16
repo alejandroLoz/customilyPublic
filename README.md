@@ -53,7 +53,7 @@ For this test you need to create a simple backend on Node.js with an endpoint th
 ## Delivery
 The solution should be uploaded to a GitHub private repository. Create a new repo on your GitHub account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator to that repo (`alejandroLoz`).
 
-### With Docker
+### With Docker (huge plus)
 If you know `Docker`, you can use `Docker Compose` to run everything with a single `docker-compose up` command. If migrations for the database need to be executed for the app to run, they should be executed by `Docker` automatically.
 
 ### Without Docker
