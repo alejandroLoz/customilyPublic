@@ -48,7 +48,7 @@ When the user clicks the `Try it` button, the app should take him to another pag
   You should add a `Save` button to save the personalization entered by the user in the previously generated controls. When pressing the button all the data should be sent to the backend to be stored in a database.
   
 ## Backend test
-For this test you need to create a simple backend on C#.NET with an endpoint that will receive the personalization data from the frontend and store it in any database of your choice! We should be able to retrieve the data on another endpoint by using the product id.
+For this test you need to create a simple backend on C#.NET 4.5 with an endpoint that will receive the personalization data from the frontend and store it in any database of your choice! We should be able to retrieve the data on another endpoint by using the product id.
    
 ## Delivery
 The solution should be uploaded to a GitHub private repository. Create a new repo on your GitHub account, create a branch named `Customily`, push the solution to that branch and invite me as a colaborator to that repo (`alejandroLoz`).
