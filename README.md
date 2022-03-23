@@ -23,10 +23,10 @@ A product can have any combination of:
 
 For example
 
-_2 textfields and 2 text font selectors_ ![alt text](https://i.imgur.com/9IUGt9th.png) 
-_1 textfiled, 1 font selector and 1 image selector_ ![alt text](https://i.imgur.com/IoHYHkxh.png) 
-_1 textfield, 1 font selector and 1 text color selector_ ![alt text](https://i.imgur.com/BQ7nu46h.png) 
-_1 image upload field_ ![alt text](https://i.imgur.com/5xhVlIqh.png) 
+_Product 464c481b-65d8-4006-8151-c10846020e75: 2 textfields and 2 text font selectors_ ![alt text](https://i.imgur.com/9IUGt9th.png) 
+_Product a67b5c68-ce51-4df6-bb94-990bfb2389b1: 1 textfiled, 1 font selector and 1 image selector_ ![alt text](https://i.imgur.com/IoHYHkxh.png) 
+_Product a81a5ce9-d6fc-408a-b6d1-7a5c955b14a5: 1 textfield, 1 font selector and 1 text color selector_ ![alt text](https://i.imgur.com/BQ7nu46h.png) 
+_Product c7f0ce84-8577-4fef-9c14-e17693278d9c: 1 image upload field_ ![alt text](https://i.imgur.com/5xhVlIqh.png) 
 
 
 In order to generate these controls, you should read the product metadata. You can obtain the product metadata with `engraver.currentProduct`:
