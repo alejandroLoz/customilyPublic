@@ -12,7 +12,7 @@ For this test you need to create a Javascript application that does what's liste
 We encourage the use of Javascript and CSS frameworks and/or libraries.
 
 The app should:
-1) Display the product passed by a query string and generate the HTML controls on the fly so the user can personalize the product
+1) Display the product passed by URL and generate the HTML controls on the fly so the user can personalize the product
 
 Take into account that a product can have fonts selectors, image selectors, text fields and image upload fields.
 In order to generate these controls, you should read the product metadata. You can obtain the product metadata with `engraver.currentProduct`:
