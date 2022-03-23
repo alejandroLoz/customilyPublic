@@ -14,7 +14,13 @@ Is not important for the interface to look exactly as shown below. **We won't be
 
 ### The app should:
 1) Display the product passed by URL and generate the HTML controls (with its values) on the fly so the user can personalize the product.
-A product can have any combination of `text fields`, `text fonts selectors`, `text color selectors`, `image selectors` and `image upload fields`. <br/>
+A product can have any combination of:
+- `text fields` 
+- `text fonts selectors` 
+- `text color selectors`, 
+- `image selectors`  
+- `image upload fields`.
+
 For example
 
 _2 textfields and text font selectors_ ![alt text](https://i.imgur.com/9IUGt9th.png) 
