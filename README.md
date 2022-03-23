@@ -23,7 +23,7 @@ A product can have any combination of:
 
 For example
 
-_2 textfields and text font selectors_ ![alt text](https://i.imgur.com/9IUGt9th.png) 
+_2 textfields and 2 text font selectors_ ![alt text](https://i.imgur.com/9IUGt9th.png) 
 _1 textfiled, 1 font selector and 1 image selector_ ![alt text](https://i.imgur.com/IoHYHkxh.png) 
 _1 textfield, 1 font selector and 1 text color selector_ ![alt text](https://i.imgur.com/BQ7nu46h.png) 
 _1 image upload field_ ![alt text](https://i.imgur.com/5xhVlIqh.png) 
@@ -40,8 +40,8 @@ In order to generate these controls, you should read the product metadata. You c
     - `engraver.setText(id, line)`
     - `engraver.setFont(id, option)`
     - `engraver.setFontColor(id, option)`
-    - `setImage(imageId,image)` 
-    - `setPresetImage(imageId,imageOption)`
+    - `engraver.setImage(imageId,image)` 
+    - `engraver.setPresetImage(imageId,imageOption)`
   
  2) Save the personalization selected in each HTML control using a `save` button. When pressing the button all the data should be sent to the backend to be stored in a database (including the product picture the canvas was displaying at that moment).
   
