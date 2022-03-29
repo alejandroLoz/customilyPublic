@@ -10,7 +10,7 @@ Before starting this test we recommend to have a minimum understanding of how Cu
 ## Frontend Test
 For this test you need to create a Javascript application that does what's listed below.
 We encourage the use of Javascript frameworks such as (Angular,React or Vue).
-Is not important for the interface to look exactly as shown below. **We won't be evaluating your graphic design skills**
+It's **not** important for the interface to look exactly as shown below. **We won't be evaluating your graphic design skills**
 
 ### The app should:
 1) Display the product passed by URL and generate the HTML controls (with its values) on the fly so the user can personalize the product.
